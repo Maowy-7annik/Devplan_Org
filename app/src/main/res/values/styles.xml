@@ -14,8 +14,8 @@
     </style>
 
     <!--  -->
-    <style name="TextView_Style">
-
+    <style name="TextView_Primary_Style">
+        <item name="android:opacity"></item>
     </style>
 
     <!-- -->

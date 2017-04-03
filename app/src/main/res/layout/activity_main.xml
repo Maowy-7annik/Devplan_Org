@@ -12,13 +12,25 @@
    <LinearLayout
        android:layout_width="0dp"
        android:layout_height="0dp"
+       android:orientation="vertical"
        app:layout_constraintBottom_toBottomOf="parent"
        app:layout_constraintTop_toTopOf="parent"
        app:layout_constraintRight_toRightOf="parent"
        app:layout_constraintLeft_toLeftOf="parent"
        android:layout_margin="@dimen/std_layout_margin">
 
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Test"
+           android:textSize="20sp"
+           android:textColor="@color/textPrimary"/>
 
+       <Button
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Button"
+           android:background="@color/colorAccent"/>
 
    </LinearLayout>
 
