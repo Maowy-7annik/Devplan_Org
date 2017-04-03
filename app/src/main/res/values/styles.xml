@@ -8,14 +8,17 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <!--  -->
     <style name="Button_Style">
 
     </style>
 
+    <!--  -->
     <style name="TextView_Style">
 
     </style>
 
+    <!-- -->
     <style name="TextEdit_Style">
 
     </style>

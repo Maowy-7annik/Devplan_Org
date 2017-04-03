@@ -1,3 +1,4 @@
 <resources>
-    <dimen name="fab_margin">16dp</dimen>
+    <!-- Spacing constants -->
+    <dimen name="std_layout_margin">8dp</dimen>
 </resources>

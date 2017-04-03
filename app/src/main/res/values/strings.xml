@@ -1,4 +1,29 @@
 <resources>
+    <!-- App-name: -->
     <string name="app_name">Devplan</string>
-    <string name="action_settings">Settings</string>
+
+    <!-- Main Activity -->
+    <!-- XML Layout:  -->
+    <string name="main_text1">Placeholder</string>
+    <string name="main_text2">Placeholder</string>
+    <!-- Java Code:  -->
+    <string name="main_text3">Placeholder</string>
+    <string name="main_text4">Placeholder</string>
+
+
+    <!-- Task Activity -->
+    <!-- XML Layout:  -->
+    <string name="task_text1">Placeholder</string>
+    <string name="task_text2">Placeholder</string>
+    <!-- Java Code:  -->
+    <string name="task_text3">Placeholder</string>
+    <string name="task_text4">Placeholder</string>
+
+    <!-- Settings Activity -->
+    <!-- XML Layout:  -->
+    <string name="settings_text1">Placeholder</string>
+    <string name="settings_text2">Placeholder</string>
+    <!-- Java Code:  -->
+    <string name="settings_text3">Placeholder</string>
+    <string name="settings_text4">Placeholder</string>
 </resources>
