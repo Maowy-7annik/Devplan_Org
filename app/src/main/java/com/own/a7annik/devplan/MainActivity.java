@@ -8,6 +8,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -26,6 +27,13 @@ public class MainActivity extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
+
+        String message = "App started";
+        // Print a message to the i(information) log, in addition to the information log their is one for e(error) and w(warning)
+        android.util.Log.i(this.getLocalClassName(), message);
+
+        // Toasts are little messages in black boxes floating above the bottom of the screen
+        Toast.makeText(this, message, Toast.LENGTH_SHORT);
     }
 
     @Override
