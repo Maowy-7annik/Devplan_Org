@@ -1,4 +1,10 @@
 <resources>
+
     <!-- Spacing constants -->
     <dimen name="std_layout_margin">8dp</dimen>
+
+    <!-- Text size -->
+    <dimen name="LargeText">24sp</dimen>
+    <dimen name="MediumText">16sp</dimen>
+    <dimen name="SmallText">8sp</dimen>
 </resources>

@@ -9,13 +9,27 @@
     </style>
 
     <!--  -->
-    <style name="Button_Style">
+    <style name="LinearLayout_H_Weight_Style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
 
+    <style name="LinearLayout_V_Weight_Style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:orientation">vertical</item>
     </style>
 
     <!--  -->
-    <style name="TextView_Primary_Style">
-        <item name="android:opacity"></item>
+    <style name="Button_Style">
+        <item name="android:background">@color/colorAccent</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/MediumText</item>
+    </style>
+
+    <!--  -->
+    <style name="TextView_Style">
     </style>
 
     <!-- -->

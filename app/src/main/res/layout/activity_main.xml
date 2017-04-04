@@ -19,18 +19,32 @@
        app:layout_constraintLeft_toLeftOf="parent"
        android:layout_margin="@dimen/std_layout_margin">
 
-       <TextView
-           android:layout_width="wrap_content"
-           android:layout_height="wrap_content"
-           android:text="Test"
-           android:textSize="20sp"
-           android:textColor="@color/textPrimary"/>
+       <LinearLayout
+           android:id="@+id/Main_Top"
+           android:layout_weight="3"
+           style="@style/LinearLayout_V_Weight_Style"></LinearLayout>
 
-       <Button
-           android:layout_width="wrap_content"
-           android:layout_height="wrap_content"
-           android:text="Button"
-           android:background="@color/colorAccent"/>
+       <LinearLayout
+           android:id="@+id/Main_Bottom"
+           android:layout_weight="2"
+           style="@style/LinearLayout_V_Weight_Style">
+
+           <TextView
+               android:id="@+id/TextView1"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Test"
+               android:textSize="24sp"
+               android:textColor="@color/textPrimary" />
+
+           <Button
+               android:id="@+id/Button1"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Button"
+               android:onClick="button1_click"
+               style="@style/Button_Style" />
+       </LinearLayout>
 
    </LinearLayout>
 

@@ -1,14 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Color-theme -->
-    <color name="colorPrimary">#1a865e</color>
+    <color name="colorPrimaryLight">#b4ecc9</color>
+    <color name="colorPrimary">#259169</color>
     <color name="colorPrimaryDark">#146845</color>
 
-    <color name="colorAccent">#ff4133</color>
-    <color name="colorAccentDark">#e12424</color>
+    <color name="colorAccentLight">#ffb7b7</color>
+    <color name="colorAccent">#e12424</color>
+    <color name="colorAccentDark">#be0f0f</color>
 
     <color name="textPrimary">#df000000</color>
     <color name="textSecondary">#8a000000</color>
     <color name="textDisabled">#61000000</color>
-    <color name="background"></color>
+
+    <color name="background">@color/white</color>
+
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
 </resources>
