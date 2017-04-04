@@ -22,11 +22,6 @@
        <LinearLayout
            android:id="@+id/Main_Top"
            android:layout_weight="3"
-           style="@style/LinearLayout_V_Weight_Style"></LinearLayout>
-
-       <LinearLayout
-           android:id="@+id/Main_Bottom"
-           android:layout_weight="2"
            style="@style/LinearLayout_V_Weight_Style">
 
            <TextView
@@ -37,13 +32,33 @@
                android:textSize="24sp"
                android:textColor="@color/textPrimary" />
 
+       </LinearLayout>
+
+       <LinearLayout
+           android:id="@+id/Main_Bottom"
+           android:layout_weight="2"
+           style="@style/LinearLayout_H_Weight_Style">
+
            <Button
                android:id="@+id/Button1"
-               android:layout_width="wrap_content"
+               android:layout_width="0dp"
                android:layout_height="wrap_content"
-               android:text="Button"
-               android:onClick="button1_click"
+               android:layout_weight="1"
+               android:layout_gravity="bottom"
+               android:layout_margin="8dp"
+               android:text="Button 1"
                style="@style/Button_Style" />
+
+           <Button
+               android:id="@+id/Button2"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:layout_weight="1"
+               android:layout_gravity="bottom"
+               android:layout_margin="8dp"
+               android:text="Button 2"
+               style="@style/Button_Style" />
+
        </LinearLayout>
 
    </LinearLayout>
