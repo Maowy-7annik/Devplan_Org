@@ -17,7 +17,7 @@
        app:layout_constraintTop_toTopOf="parent"
        app:layout_constraintRight_toRightOf="parent"
        app:layout_constraintLeft_toLeftOf="parent"
-       android:layout_margin="@dimen/std_layout_margin">
+       android:layout_margin="4dp">
 
        <LinearLayout
            android:id="@+id/Main_Top"
@@ -28,9 +28,32 @@
                android:id="@+id/TextView1"
                android:layout_width="wrap_content"
                android:layout_height="wrap_content"
-               android:text="Test"
-               android:textSize="24sp"
+               android:layout_marginLeft="@dimen/std_card_title_margin"
+               android:text="Title"
+               android:textSize="@dimen/LargeText"
                android:textColor="@color/textPrimary" />
+
+           <TextView
+               android:id="@+id/TextView2"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginLeft="@dimen/std_card_subtitle_margin"
+               android:text="Subtitle"
+               android:textSize="@dimen/MediumText"
+               android:textColor="@color/textPrimary" />
+
+           <TextView
+               android:id="@+id/Time_TextView"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="13.00 Uhr"
+               android:textSize="@dimen/LargeText"
+               android:textColor="@color/textPrimary" />
+
+           <CheckBox
+               android:id="@+id/task_checkbox"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content" />
 
        </LinearLayout>
 

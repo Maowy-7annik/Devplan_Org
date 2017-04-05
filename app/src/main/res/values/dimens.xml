@@ -2,6 +2,8 @@
 
     <!-- Spacing constants -->
     <dimen name="std_layout_margin">8dp</dimen>
+    <dimen name="std_card_title_margin">16dp</dimen>
+    <dimen name="std_card_subtitle_margin">32dp</dimen>
 
     <!-- Text size -->
     <dimen name="LargeText">24sp</dimen>
